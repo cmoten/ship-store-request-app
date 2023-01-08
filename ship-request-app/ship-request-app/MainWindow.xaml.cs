@@ -1,6 +1,7 @@
 // Copyright (c) Microsoft Corporation and Contributors.
 // Licensed under the MIT License.
 
+using CommunityToolkit.WinUI;
 using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Controls;
 using Microsoft.UI.Xaml.Controls.Primitives;
@@ -30,6 +31,8 @@ public sealed partial class MainWindow : WindowEx
     public MainWindow()
     {
         this.InitializeComponent();
+        Content = null;
+        Title = "AppDisplayName".GetLocalized();
     }
 
 }

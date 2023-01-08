@@ -6,12 +6,8 @@ using System.Threading.Tasks;
 
 namespace ship_request_app.Model
 {
-    public class OrderDetail
+    public class OrderResponse
     {
-        public int Id { get; set; }
-
-        public int Quantity { get; set; }
-
-        public string ProductName { get; set; }
+        public int OrderId { get; set; }
     }
 }

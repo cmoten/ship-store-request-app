@@ -6,12 +6,9 @@ using System.Threading.Tasks;
 
 namespace ship_request_app.Model
 {
-    public class OrderDetail
+    public class Login
     {
-        public int Id { get; set; }
-
-        public int Quantity { get; set; }
-
-        public string ProductName { get; set; }
+        public string Email { get; set; }
+        public string Password { get; set; }
     }
 }

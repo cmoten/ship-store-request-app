@@ -6,13 +6,15 @@ using System.Threading.Tasks;
 
 namespace ship_request_app.Model
 {
-    public class User
+    public class OrderByUser
     {
         public int Id { get; set; }
         public string Name { get; set; }
-        public string Email { get; set; }
-        public string Password { get; set; }
-        public string Building { get; set; }
+        public string BuildingNumber { get; set; }
         public string ApartmentNumber { get; set; }
+        public DateTime OrderPlaced
+        {
+            get; set;
+        }
     }
 }
