@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "ship-request-app (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "ship-request-app (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
