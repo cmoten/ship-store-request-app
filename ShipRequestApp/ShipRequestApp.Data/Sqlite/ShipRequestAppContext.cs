@@ -1,10 +1,21 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using ShipRequestApp.Core.Model;
 
-namespace ShipRequestApp.Data
+namespace ShipRequestApp.Data.Sqlite
 {
+    /// <summary>
+    /// Entity Framework Core DbContext.
+    /// </summary>
     public class ShipRequestAppContext : DbContext
     {
+        /// <summary>
+        /// DbContext constructor
+        /// </summary>
+        public ShipRequestAppContext(DbContextOptions<ShipRequestAppContext> options) : base(options) { }
+
+        /// <summary>
+        /// Get the DbSets available in the database
+        /// </summary>
         public DbSet<Category> Categories { get; set; }
         public DbSet<Order> Orders { get; set; }
         public DbSet<OrderByUser> OrderByUsers { get; set; }

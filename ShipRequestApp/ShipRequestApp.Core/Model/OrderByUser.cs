@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ShipRequestApp.Core.Model
 {
-    public class OrderByUser
+    public class OrderByUser : DbObject 
     {
         public int Id { get; set; }
         public string Name { get; set; }

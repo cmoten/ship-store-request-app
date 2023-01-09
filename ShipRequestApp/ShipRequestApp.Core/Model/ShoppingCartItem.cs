@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ShipRequestApp.Core.Model
 {
-    public class ShoppingCartItem
+    public class ShoppingCartItem : DbObject
     {
         public int Id { get; set; }
         public int Quantity { get; set; }
