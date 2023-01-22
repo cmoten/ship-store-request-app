@@ -11,14 +11,14 @@ namespace ShipRequestApp.Core.Services
     {
         public static void RegisterUser(string name, string email, string password, string buildingNumber, string apartmentNumber)
         {
-            var register = new Register()
-            { 
-                Name = name,
-                Email = email,
-                Password = password,
-                BuildingNumber = buildingNumber,
-                ApartmentNumber= apartmentNumber 
-            };
+            //var register = new Register()
+            //{ 
+            //    Name = name,
+            //    Email = email,
+            //    Password = password,
+            //    BuildingNumber = buildingNumber,
+            //    ApartmentNumber= apartmentNumber 
+            //};
 
             // TODO: Update the User Table in the database
 

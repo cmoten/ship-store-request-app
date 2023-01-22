@@ -1,0 +1,12 @@
+C:\Users\cardy\source\repos\ship-store-request-app\ShipRequestApp\ShipRequestApp.Core\bin\Debug\net6.0\ShipRequestApp.Core.deps.json
+C:\Users\cardy\source\repos\ship-store-request-app\ShipRequestApp\ShipRequestApp.Core\bin\Debug\net6.0\ShipRequestApp.Core.dll
+C:\Users\cardy\source\repos\ship-store-request-app\ShipRequestApp\ShipRequestApp.Core\bin\Debug\net6.0\ShipRequestApp.Core.pdb
+C:\Users\cardy\source\repos\ship-store-request-app\ShipRequestApp\ShipRequestApp.Core\obj\Debug\net6.0\ShipRequestApp.Core.csproj.AssemblyReference.cache
+C:\Users\cardy\source\repos\ship-store-request-app\ShipRequestApp\ShipRequestApp.Core\obj\Debug\net6.0\ShipRequestApp.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cardy\source\repos\ship-store-request-app\ShipRequestApp\ShipRequestApp.Core\obj\Debug\net6.0\ShipRequestApp.Core.AssemblyInfoInputs.cache
+C:\Users\cardy\source\repos\ship-store-request-app\ShipRequestApp\ShipRequestApp.Core\obj\Debug\net6.0\ShipRequestApp.Core.AssemblyInfo.cs
+C:\Users\cardy\source\repos\ship-store-request-app\ShipRequestApp\ShipRequestApp.Core\obj\Debug\net6.0\ShipRequestApp.Core.csproj.CoreCompileInputs.cache
+C:\Users\cardy\source\repos\ship-store-request-app\ShipRequestApp\ShipRequestApp.Core\obj\Debug\net6.0\ShipRequestApp.Core.dll
+C:\Users\cardy\source\repos\ship-store-request-app\ShipRequestApp\ShipRequestApp.Core\obj\Debug\net6.0\refint\ShipRequestApp.Core.dll
+C:\Users\cardy\source\repos\ship-store-request-app\ShipRequestApp\ShipRequestApp.Core\obj\Debug\net6.0\ShipRequestApp.Core.pdb
+C:\Users\cardy\source\repos\ship-store-request-app\ShipRequestApp\ShipRequestApp.Core\obj\Debug\net6.0\ref\ShipRequestApp.Core.dll

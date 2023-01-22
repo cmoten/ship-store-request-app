@@ -1,0 +1,17 @@
+C:\Users\cardy\source\repos\ship-store-request-app\ShipRequestApp\ShipRequestApp.Data\bin\Debug\net6.0\ShipRequestApp.Data.deps.json
+C:\Users\cardy\source\repos\ship-store-request-app\ShipRequestApp\ShipRequestApp.Data\bin\Debug\net6.0\ShipRequestApp.Data.runtimeconfig.json
+C:\Users\cardy\source\repos\ship-store-request-app\ShipRequestApp\ShipRequestApp.Data\bin\Debug\net6.0\ShipRequestApp.Data.dll
+C:\Users\cardy\source\repos\ship-store-request-app\ShipRequestApp\ShipRequestApp.Data\bin\Debug\net6.0\ShipRequestApp.Data.pdb
+C:\Users\cardy\source\repos\ship-store-request-app\ShipRequestApp\ShipRequestApp.Data\bin\Debug\net6.0\ShipRequestApp.Core.dll
+C:\Users\cardy\source\repos\ship-store-request-app\ShipRequestApp\ShipRequestApp.Data\bin\Debug\net6.0\ShipRequestApp.Core.pdb
+C:\Users\cardy\source\repos\ship-store-request-app\ShipRequestApp\ShipRequestApp.Data\obj\Debug\net6.0\ShipRequestApp.Data.csproj.AssemblyReference.cache
+C:\Users\cardy\source\repos\ship-store-request-app\ShipRequestApp\ShipRequestApp.Data\obj\Debug\net6.0\ShipRequestApp.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cardy\source\repos\ship-store-request-app\ShipRequestApp\ShipRequestApp.Data\obj\Debug\net6.0\ShipRequestApp.Data.AssemblyInfoInputs.cache
+C:\Users\cardy\source\repos\ship-store-request-app\ShipRequestApp\ShipRequestApp.Data\obj\Debug\net6.0\ShipRequestApp.Data.AssemblyInfo.cs
+C:\Users\cardy\source\repos\ship-store-request-app\ShipRequestApp\ShipRequestApp.Data\obj\Debug\net6.0\ShipRequestApp.Data.csproj.CoreCompileInputs.cache
+C:\Users\cardy\source\repos\ship-store-request-app\ShipRequestApp\ShipRequestApp.Data\obj\Debug\net6.0\ShipRequestApp.Data.csproj.CopyComplete
+C:\Users\cardy\source\repos\ship-store-request-app\ShipRequestApp\ShipRequestApp.Data\obj\Debug\net6.0\ShipRequestApp.Data.dll
+C:\Users\cardy\source\repos\ship-store-request-app\ShipRequestApp\ShipRequestApp.Data\obj\Debug\net6.0\refint\ShipRequestApp.Data.dll
+C:\Users\cardy\source\repos\ship-store-request-app\ShipRequestApp\ShipRequestApp.Data\obj\Debug\net6.0\ShipRequestApp.Data.pdb
+C:\Users\cardy\source\repos\ship-store-request-app\ShipRequestApp\ShipRequestApp.Data\obj\Debug\net6.0\ShipRequestApp.Data.genruntimeconfig.cache
+C:\Users\cardy\source\repos\ship-store-request-app\ShipRequestApp\ShipRequestApp.Data\obj\Debug\net6.0\ref\ShipRequestApp.Data.dll
