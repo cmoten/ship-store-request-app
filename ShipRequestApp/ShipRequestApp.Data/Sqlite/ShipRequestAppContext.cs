@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyModel.Resolution;
 using ShipRequestApp.Core.Model;
 
 namespace ShipRequestApp.Data.Sqlite
@@ -25,5 +26,19 @@ namespace ShipRequestApp.Data.Sqlite
         public DbSet<ShoppingCartItem> ShoppingCartItems { get; set; }
         public DbSet<User> Users { get; set; }
 
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            optionsBuilder.UseSqlite("Data Source=AppData.db;");
+        }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<User>().ToTable("Users");
+        }
+
     }
+
+
+
+
 }

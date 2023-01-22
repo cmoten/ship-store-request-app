@@ -4,6 +4,65 @@
     "C:\\Users\\cardy\\source\\repos\\ship-store-request-app\\ShipRequestApp\\ShipRequestApp\\ShipRequestApp.csproj": {}
   },
   "projects": {
+    "C:\\Users\\cardy\\source\\repos\\ship-store-request-app\\ShipRequestApp\\ShipRequestApp.Core\\ShipRequestApp.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\cardy\\source\\repos\\ship-store-request-app\\ShipRequestApp\\ShipRequestApp.Core\\ShipRequestApp.Core.csproj",
+        "projectName": "ShipRequestApp.Core",
+        "projectPath": "C:\\Users\\cardy\\source\\repos\\ship-store-request-app\\ShipRequestApp\\ShipRequestApp.Core\\ShipRequestApp.Core.csproj",
+        "packagesPath": "C:\\Users\\cardy\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cardy\\source\\repos\\ship-store-request-app\\ShipRequestApp\\ShipRequestApp.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\cardy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Users\\cardy\\source\\repos\\ship-store-request-app\\ShipRequestApp\\ShipRequestApp\\ShipRequestApp.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -31,7 +90,11 @@
         "frameworks": {
           "net6.0-windows10.0.19041": {
             "targetAlias": "net6.0-windows10.0.19041.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\cardy\\source\\repos\\ship-store-request-app\\ShipRequestApp\\ShipRequestApp.Core\\ShipRequestApp.Core.csproj": {
+                "projectPath": "C:\\Users\\cardy\\source\\repos\\ship-store-request-app\\ShipRequestApp\\ShipRequestApp.Core\\ShipRequestApp.Core.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -55,6 +118,12 @@
             "CommunityToolkit.WinUI.UI.Controls": {
               "target": "Package",
               "version": "[7.1.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.2, )"
             },
             "Microsoft.Extensions.Hosting": {
               "target": "Package",
@@ -91,27 +160,27 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.AspNetCore.App.Runtime.win-arm64",
-              "version": "[6.0.12, 6.0.12]"
+              "version": "[6.0.13, 6.0.13]"
             },
             {
               "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
-              "version": "[6.0.12, 6.0.12]"
+              "version": "[6.0.13, 6.0.13]"
             },
             {
               "name": "Microsoft.AspNetCore.App.Runtime.win-x86",
-              "version": "[6.0.12, 6.0.12]"
+              "version": "[6.0.13, 6.0.13]"
             },
             {
               "name": "Microsoft.NETCore.App.Runtime.win-arm64",
-              "version": "[6.0.12, 6.0.12]"
+              "version": "[6.0.13, 6.0.13]"
             },
             {
               "name": "Microsoft.NETCore.App.Runtime.win-x64",
-              "version": "[6.0.12, 6.0.12]"
+              "version": "[6.0.13, 6.0.13]"
             },
             {
               "name": "Microsoft.NETCore.App.Runtime.win-x86",
-              "version": "[6.0.12, 6.0.12]"
+              "version": "[6.0.13, 6.0.13]"
             },
             {
               "name": "Microsoft.Windows.SDK.NET.Ref",
@@ -119,15 +188,15 @@
             },
             {
               "name": "Microsoft.WindowsDesktop.App.Runtime.win-arm64",
-              "version": "[6.0.12, 6.0.12]"
+              "version": "[6.0.13, 6.0.13]"
             },
             {
               "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
-              "version": "[6.0.12, 6.0.12]"
+              "version": "[6.0.13, 6.0.13]"
             },
             {
               "name": "Microsoft.WindowsDesktop.App.Runtime.win-x86",
-              "version": "[6.0.12, 6.0.12]"
+              "version": "[6.0.13, 6.0.13]"
             }
           ],
           "frameworkReferences": {
@@ -138,7 +207,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {
