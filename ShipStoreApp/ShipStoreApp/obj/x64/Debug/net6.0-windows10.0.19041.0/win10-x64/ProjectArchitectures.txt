@@ -1,0 +1,1 @@
+C:\Users\cardy\source\repos\ship-store-request-app\ShipStoreApp\ShipStoreApp\ShipStoreApp.csproj;x64
