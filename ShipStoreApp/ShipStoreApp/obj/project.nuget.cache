@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Q8nK2/NejSrnh7a7BA0AxjPX6LW/fQ7gIY+ZkaJfn0a/E5kG5pblib52jRrLlWCpsd5gUOrUVkIEvy49Jpgv2g==",
+  "dgSpecHash": "Wn4agg7cUC7zjhHYWE3asmbqz0QeDSoo2f6oteFcXQaH5kGj9R1lbCOBgpuU3Nlow3V4Mc6AOj6E4PDoTrKjEQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\cardy\\source\\repos\\ship-store-request-app\\ShipStoreApp\\ShipStoreApp\\ShipStoreApp.csproj",
   "expectedPackageFiles": [
@@ -25,7 +25,7 @@
     "C:\\Users\\cardy\\.nuget\\packages\\microsoft.extensions.options\\7.0.0\\microsoft.extensions.options.7.0.0.nupkg.sha512",
     "C:\\Users\\cardy\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
     "C:\\Users\\cardy\\.nuget\\packages\\microsoft.windows.sdk.buildtools\\10.0.22621.755\\microsoft.windows.sdk.buildtools.10.0.22621.755.nupkg.sha512",
-    "C:\\Users\\cardy\\.nuget\\packages\\microsoft.windowsappsdk\\1.2.221209.1\\microsoft.windowsappsdk.1.2.221209.1.nupkg.sha512",
+    "C:\\Users\\cardy\\.nuget\\packages\\microsoft.windowsappsdk\\1.2.230118.102\\microsoft.windowsappsdk.1.2.230118.102.nupkg.sha512",
     "C:\\Users\\cardy\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
     "C:\\Users\\cardy\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.1.2\\sqlitepclraw.bundle_e_sqlite3.2.1.2.nupkg.sha512",
     "C:\\Users\\cardy\\.nuget\\packages\\sqlitepclraw.core\\2.1.2\\sqlitepclraw.core.2.1.2.nupkg.sha512",
