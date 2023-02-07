@@ -1,0 +1,8 @@
+﻿When migrating the sqlite database:
+
+1. Delete the current database
+2. Delete the migrations folder
+
+Run these commands in the Package Manager Console
+Add-Migration initial -context ShipRequestAppContext -Outputdir Data/Migrations
+Update-Database -context ShipRequestAppContext 
