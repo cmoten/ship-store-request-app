@@ -18,10 +18,39 @@ namespace ShipStoreApp.Data
         public DbSet<ShoppingCartItem> ShoppingCartItems { get; set; }
 
         public DbSet<AddToCart> AddToCart { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<User>()
+                .HasMany<Order>()
+                .WithOne();
+
+            modelBuilder.Entity<User>()
+                .HasMany<AddToCart>()
+                .WithOne();
+
+            modelBuilder.Entity<Product>()
+                .HasMany<AddToCart>()
+                .WithOne();
+
+            modelBuilder.Entity<Product>()
+                .HasMany<ShoppingCartItem>()
+                .WithOne();
+
+            modelBuilder.Entity<Product>()
+                .HasMany<OrderDetail>()
+                .WithOne();
+
+            modelBuilder.Entity<Order>()
+                .HasMany<OrderDetail>()
+                .WithOne();
+        }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseSqlite("Data Source = AppData.db");
             base.OnConfiguring(optionsBuilder);
         }
+
+        
     }
 }

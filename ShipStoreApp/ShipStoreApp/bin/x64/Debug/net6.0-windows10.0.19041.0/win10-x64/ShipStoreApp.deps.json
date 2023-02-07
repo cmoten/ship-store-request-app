@@ -9,10 +9,11 @@
     ".NETCoreApp,Version=v6.0/win10-x64": {
       "ShipStoreApp/1.0.0": {
         "dependencies": {
+          "Microsoft.EntityFrameworkCore.Design": "7.0.2",
           "Microsoft.EntityFrameworkCore.Sqlite": "7.0.2",
           "Microsoft.EntityFrameworkCore.Tools": "7.0.2",
           "Microsoft.Windows.SDK.BuildTools": "10.0.22621.755",
-          "Microsoft.WindowsAppSDK": "1.2.221209.1",
+          "Microsoft.WindowsAppSDK": "1.2.230118.102",
           "runtimepack.Microsoft.NETCore.App.Runtime.win-x64": "6.0.13",
           "runtimepack.Microsoft.Windows.SDK.NET.Ref": "10.0.19041.28"
         },
@@ -1068,18 +1069,18 @@
         }
       },
       "Microsoft.Windows.SDK.BuildTools/10.0.22621.755": {},
-      "Microsoft.WindowsAppSDK/1.2.221209.1": {
+      "Microsoft.WindowsAppSDK/1.2.230118.102": {
         "dependencies": {
           "Microsoft.Windows.SDK.BuildTools": "10.0.22621.755"
         },
         "runtime": {
           "lib/net6.0-windows10.0.18362.0/Microsoft.InteractiveExperiences.Projection.dll": {
             "assemblyVersion": "10.0.0.0",
-            "fileVersion": "10.0.22622.1033"
+            "fileVersion": "10.0.22622.1036"
           },
           "lib/net6.0-windows10.0.18362.0/Microsoft.WinUI.dll": {
             "assemblyVersion": "3.0.0.0",
-            "fileVersion": "3.0.0.2212"
+            "fileVersion": "3.0.0.2301"
           },
           "lib/net6.0-windows10.0.18362.0/Microsoft.Windows.AppLifecycle.Projection.dll": {
             "assemblyVersion": "1.2.0.0",
@@ -1386,12 +1387,12 @@
       "path": "microsoft.windows.sdk.buildtools/10.0.22621.755",
       "hashPath": "microsoft.windows.sdk.buildtools.10.0.22621.755.nupkg.sha512"
     },
-    "Microsoft.WindowsAppSDK/1.2.221209.1": {
+    "Microsoft.WindowsAppSDK/1.2.230118.102": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-1Y8KDCmUqytdduubaQhRz6aqaP7YhVSPE/fHeqLMsK3DrV+eBThrqkM6R/8N2lu0mwkNfKSTSAhixrTR72nyWA==",
-      "path": "microsoft.windowsappsdk/1.2.221209.1",
-      "hashPath": "microsoft.windowsappsdk.1.2.221209.1.nupkg.sha512"
+      "sha512": "sha512-MyHPzz4NSo+ulXkQ1sVo83SaZTFUcz429oy1m7lTfaxyU5St48p3TgzKKFRwe3WtpUf9OAUReYBCczIkojfmTQ==",
+      "path": "microsoft.windowsappsdk/1.2.230118.102",
+      "hashPath": "microsoft.windowsappsdk.1.2.230118.102.nupkg.sha512"
     },
     "Mono.TextTemplating/2.2.1": {
       "type": "package",

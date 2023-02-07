@@ -44,6 +44,12 @@
         "net6.0-windows10.0.19041": {
           "targetAlias": "net6.0-windows10.0.19041.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[7.0.2, )"
@@ -60,7 +66,7 @@
             },
             "Microsoft.WindowsAppSDK": {
               "target": "Package",
-              "version": "[1.2.221209.1, )"
+              "version": "[1.2.230118.102, )"
             }
           },
           "imports": [
