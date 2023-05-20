@@ -45,6 +45,14 @@
   <ItemGroup Condition="'$(DisableMsixProjectCapabilityAddedByProject)'!='true' and '$(EnableMsixTooling)'=='true'">
     <ProjectCapability Include="Msix" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Assets\LightBulbs\" />
+    <Folder Include="Assets\OutdoorMisc\" />
+    <Folder Include="Assets\Structural\" />
+    <Folder Include="Assets\Plumbing\" />
+    <Folder Include="Assets\PaintSupplies\" />
+    <Folder Include="Assets\SafetyElectrical\" />
+  </ItemGroup>
 
   <!-- 
     Defining the "HasPackageAndPublishMenuAddedByProject" property here allows the Solution 

@@ -11,9 +11,9 @@ namespace ShipStoreApp.Models
     public class Order
     {
         [Key]
-        public int Id { get; set; }
+        public int OrderId { get; set; }
 
-        [ForeignKey("User")]
+        public User User { get; set; }
         public int UserId { get; set; }
         public DateTime OrderDate { get; set; }
     }

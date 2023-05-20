@@ -11,7 +11,7 @@ namespace ShipStoreApp.Models
     public class ShoppingCartItem
     {
         [Key]
-        public int Id { get; set; }
+        public int ShoppingCartItemId { get; set; }
 
         [ForeignKey("Product")]
         public int ProductId { get; set; }

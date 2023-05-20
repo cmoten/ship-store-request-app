@@ -8,6 +8,7 @@ using Microsoft.UI.Xaml.Data;
 using Microsoft.UI.Xaml.Input;
 using Microsoft.UI.Xaml.Media;
 using Microsoft.UI.Xaml.Navigation;
+using ShipStoreApp.Data;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -31,9 +32,16 @@ namespace ShipStoreApp
             this.InitializeComponent();
         }
 
-        private void myButton_Click(object sender, RoutedEventArgs e)
+        
+
+        private void productButton_Click(object sender, RoutedEventArgs e) 
         {
-            myButton.Content = "Clicked";
+            using var db = new ShipRequestAppContext();
+            var products = db.Products.ToList();
+            foreach(var product in products) 
+            {
+                productButton.Content = product.Name;
+            }
         }
     }
 }

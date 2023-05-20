@@ -11,7 +11,7 @@ namespace ShipStoreApp.Models
     public class AddToCart
     {
         [Key]
-        public int Id { get; set; }
+        public int AddToCartId { get; set; }
         public int Quantity { get; set; }
 
         [ForeignKey("User")]

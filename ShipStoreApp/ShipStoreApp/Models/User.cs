@@ -10,7 +10,12 @@ namespace ShipStoreApp.Models
 {
     public class User
     {
-        public int Id { get; set; }
+        public User()
+        {
+            Orders = new List<Order>();
+        }
+        [Key]
+        public int UserId { get; set; }
 
         [Required(ErrorMessage ="Enter a grade.")]
         public Grade Grade { get; set; }
@@ -34,5 +39,6 @@ namespace ShipStoreApp.Models
         [Required(ErrorMessage ="Enter your apartment number.")]
         [StringLength(5, ErrorMessage ="Number can't be longer than 5 characters.")]
         public string ApartmentNumber { get; set; }
+        public List<Order> Orders { get; set; }
     }
 }

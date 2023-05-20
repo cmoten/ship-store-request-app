@@ -10,13 +10,13 @@ namespace ShipStoreApp.Models
 {
     public class OrderDetail
     {
-        public int Id { get; set; }
+        [Key]
+        public int OrderDetailId { get; set; }
 
         [ForeignKey("Order")]
-        [Column(Order = 1)]
         public int OrderId { get; set; }
+
         [ForeignKey("Product")]
-        [Column(Order = 2)]
         public int ProductId { get; set; }
 
         public int Quantity { get; set; }

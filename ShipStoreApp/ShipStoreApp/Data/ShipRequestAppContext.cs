@@ -22,8 +22,9 @@ namespace ShipStoreApp.Data
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<User>()
-                .HasMany<Order>()
-                .WithOne();
+                .HasMany(u => u.Orders)
+                .WithOne(o => o.User)
+                .HasForeignKey(o => o.UserId);
 
             modelBuilder.Entity<User>()
                 .HasMany<AddToCart>()
@@ -37,13 +38,15 @@ namespace ShipStoreApp.Data
                 .HasMany<ShoppingCartItem>()
                 .WithOne();
 
+            modelBuilder.Entity<Order>()
+                .HasMany<OrderDetail>()
+                .WithOne();
+
             modelBuilder.Entity<Product>()
                 .HasMany<OrderDetail>()
                 .WithOne();
 
-            modelBuilder.Entity<Order>()
-                .HasMany<OrderDetail>()
-                .WithOne();
+            new DbInitializer(modelBuilder).Seed();
         }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
